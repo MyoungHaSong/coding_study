@@ -1,5 +1,3 @@
-def solve(num_list):
-    result = 0
-    for num in num_list:
-        result += num
-    return result
+def solve(a):
+    ans = sum(a)
+    return ans
