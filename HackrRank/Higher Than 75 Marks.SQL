@@ -1,0 +1,4 @@
+SELECT Name 
+FROM STUDENTS a
+WHERE Marks > 75
+ORDER BY RIGHT(a.Name,3) , a.ID
